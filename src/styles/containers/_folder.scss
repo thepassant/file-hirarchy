@@ -1,0 +1,13 @@
+.folder-container {
+  display: flex;
+  flex-direction: column;
+
+  .folder {
+    cursor: pointer;
+
+    .expand {
+      padding: 0 10px;
+      font-size: 20px;
+    }
+  }
+}
